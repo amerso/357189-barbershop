@@ -601,7 +601,7 @@ body {
 
 
 
-/*---------------------PAGE 2--------------------------*/
+/*---------------------PAGE 2 CATALOG ITEM---------------*/
 
 .inner-main-header{
     background-color: black;
@@ -708,10 +708,14 @@ body {
     color: #aba9a7;
     padding: 5px;
     padding-left: 0px;
+  
+    
+    
+    
     
 }
 
-.gallery-contetn{
+.inner-gallery-content{
 width: 470px;
 float: left;
 display: block;
@@ -857,7 +861,7 @@ display: block;
 
 
 
-/*---------------------PAGE 3--------------------------*/
+/*---------------------PAGE 3-PRICE LIST--------------------*/
 
 .inner3-main-header{
     margin-bottom: 55px;
@@ -872,44 +876,6 @@ display: block;
     padding: 0;
     font-size: 30px;
     line-height: 42px;
-}
-
-.inner3-breadcrumbs {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    
-}
-
-.inner3-breadcrumbs li {
-    position: relative;
-    display: inline;
-    padding-right: 40px;
-        
-}
-
-.inner3-breadcrumbs li::after {
-    content: "";
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    top: 4px;
-    right: 18px;
-    transform: rotate(44deg);
-    background-color: #000000;
-}
-
-.inner3-breadcrumbs a {
-    color: #000000;
-    text-decoration: none;
-}
-
-.inner3-breadcrumbs .current {
-    color: #aba9a7;
-}
-
-.inner3-breadcrumbs .current::after {
-    content: none;
 }
 
 
@@ -1030,26 +996,11 @@ display: block;
 
 
 
-/*---------------------PAGE 4--------------------------*/
+/*---------------------PAGE 4 CATALOG--------------------*/
 
 
-.inner4-main-header{
-    margin-bottom: 60px;
-    background-color: black;
-    color: white;
-   
-}
-
-.main-care {
-    margin-bottom: 60px;
-}
-
-<<<<<<< HEAD
-.main-care h1{
-=======
 
 .main-caption{
->>>>>>> origin/master
     margin: 0;
     margin-bottom: 20px;
     padding:0;
@@ -1057,46 +1008,6 @@ display: block;
     line-height: 42px;
     
 }
-
-
-.inner4-breadcrumbs {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    
-}
-
-.inner4-breadcrumbs li {
-    position: relative;
-    display: inline;
-    padding-right: 40px;
-        
-}
-
-.inner4-breadcrumbs li::after {
-    content: "";
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    top: 4px;
-    right: 18px;
-    transform: rotate(44deg);
-    background-color: #000000;
-}
-
-.inner4-breadcrumbs a {
-    color: #000000;
-    text-decoration: none;
-}
-
-.inner4-breadcrumbs .current {
-    color: #aba9a7;
-}
-
-.inner4-breadcrumbs .current::after {
-    content: none;
-}
-
 
 .producers {
     margin-bottom: 52px;
@@ -1314,20 +1225,6 @@ display: block;
 .in-place {
     margin-right: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
