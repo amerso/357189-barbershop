@@ -711,7 +711,7 @@ body {
     
 }
 
-.inner-gallery-content{
+.gallery-contetn{
 width: 470px;
 float: left;
 display: block;
@@ -753,8 +753,12 @@ display: block;
 }
 
 .stock{
-    
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
     margin-bottom: 33px;
+
 }
 
 .in-stock {
@@ -1036,9 +1040,11 @@ display: block;
    
 }
 
+.main-care {
+    margin-bottom: 60px;
+}
 
-
-.main-care{
+.main-care h1{
     margin: 0;
     margin-bottom: 20px;
     padding:0;
@@ -1049,11 +1055,10 @@ display: block;
 
 
 .inner4-breadcrumbs {
-    display: block;
     margin: 0;
     padding: 0;
     list-style: none;
-    margin-bottom: 60px;
+    
 }
 
 .inner4-breadcrumbs li {
